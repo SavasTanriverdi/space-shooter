@@ -1,3 +1,43 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+# Godot
+.import/
+.export/
+.export-*/*
+*.import
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Godot-specific
+*.godot.tmp
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Backup
+*.bak
+
+# User-specific
+*.cfg
+*.ini
+*.user
+*.db
+*.pidb
+*.sln
+*.mono
+*.vs
+*.swp
+*.swo
+*.tmp
+
+# Python virtualenv
+venv/
+ENV/
